@@ -1,0 +1,21 @@
+# step0: start from empty project
+
+# step1: npm init
+# step2: npm install typescript --save
+# step3: npm install grunt --save
+# step4: npm install grunt-cli --save
+# step4: npm install grunt-ts --save
+
+# step5: create empty Gruntfile.js file
+
+problem with grunt:
+[code]
+No command 'grunt' found, did you mean:
+ Command 'grun' from package 'grun' (universe)
+grunt: command not found
+[/code]
+fix:
+# sudo npm install -g grunt-cli --save
+
+problem with node/nodejs symlink, fix:
+# sudo ln -s /usr/bin/nodejs /usr/bin/node
